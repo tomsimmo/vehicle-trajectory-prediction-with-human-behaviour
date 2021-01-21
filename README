@@ -24,6 +24,8 @@ The data was scaled using participants 1-27 data. This scaling is then applied o
 
 -- MODELS
 
+Additional models (300 and 600 obs) will be made available if the paper is successful.
+
 The '100obs_xysa' model has been trained on given parameters x, y, speed, and acceleration. NOTE: Lap is not used as an input the model.
 
 
