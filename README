@@ -1,0 +1,24 @@
+READ ME
+
+-- DATASETS
+
+Shuffled datasets are presented here. Full datasets will be published if the paper is accepted. 
+
+There are 38 datasets in total. 
+
+The datasets titled 'participant_X_100obs..' refer to data that has been processed such that an observation is taken every 100 frames. 
+
+
+-- USED SETS
+
+The training set used was participant 1-27. The validation set was 28-30. The test set was 31-38.
+
+-- MAPPINGS
+
+0 = X coordinate, 1 = Y coordinate, 2 = Current Lap, 3 = Current Speed, 4 = Acceleration
+
+-- MODELS
+
+The '100obs_xysa'model has been trained on given parameters x, y, speed, and acceleration. NOTE: Lap is not used in the model.
+
+
