@@ -2,16 +2,21 @@ READ ME
 
 -- DATASETS
 
-Shuffled datasets are presented here. Full datasets will be published if the paper is accepted. 
+Shuffled dataset examples are presented in 100obs_testset branch. Full dataset examples are presented in the Raw-Full-Data branch, including all of the available features.
+
+The remaining participant datasets will be uploaded if the paper is accepted.
 
 There are 38 datasets in total. 
 
 The datasets titled 'participant_X_100obs..' refer to data that has been processed such that an observation is taken every 100 frames. 
 
-
 -- USED SETS
 
 The training set used was participant 1-27. The validation set was 28-30. The test set was 31-38.
+
+The test set presented is already shuffled, so using the last 10 observations of this set the next observation can be predicted with the model supplied.
+
+The data was scaled using participants 1-27 data. This scaling is then applied on the input data to prepare for input into the network.
 
 -- MAPPINGS
 
@@ -19,6 +24,6 @@ The training set used was participant 1-27. The validation set was 28-30. The te
 
 -- MODELS
 
-The '100obs_xysa'model has been trained on given parameters x, y, speed, and acceleration. NOTE: Lap is not used in the model.
+The '100obs_xysa' model has been trained on given parameters x, y, speed, and acceleration. NOTE: Lap is not used as an input the model.
 
 
